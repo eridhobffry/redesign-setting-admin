@@ -1713,12 +1713,12 @@ $document.ready(function () {
 	 * UI To Top
 	 * @description Enables ToTop Button
 	 */
-	if (isDesktop) {
-		$().UItoTop({
-			easingType: 'easeOutQuart',
-			containerClass: 'ui-to-top icon icon-xs icon-circle icon-darker-filled mdi mdi-chevron-up'
-		});
-	}
+		// if (isDesktop) {
+		// 	$().UItoTop({
+		// 		easingType: 'easeOutQuart',
+		// 		containerClass: 'ui-to-top icon icon-xs icon-circle icon-darker-filled mdi mdi-chevron-up'
+		// 	});
+		// }
 
 	/**
 	 * Google ReCaptcha

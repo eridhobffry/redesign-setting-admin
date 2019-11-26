@@ -103,12 +103,12 @@
           </header>
            <!-- Page Content-->
     <main class="page-content">
+        <div id='myToTop'><i class="fa fa-3x fa-chevron-circle-up"></i></div>
+        <hr class="text-darker"/>
         <!-- Contact Us-->
         <section class=" section-bottom-110 text-lg-left bg-white">
-          <div class="container">
-              
+          <div class="shell">
                 
-                <hr class="text-darker"/>
             <div class="range range-xs-center range-xs-center">
               <div class="cell-lg-3 ">
                 <div class="wrap">
@@ -154,7 +154,7 @@
                 <h3 class="text-uppercase text-bold">Einstellungen</h3>
                 <hr class="divider hr-lg-left-0 bg-mantis">
                 <!-- Classic Tabs-->
-        <section>
+        <section class="section-bottom-66">
             <div class="shell">
               <div class="offset-sm-top-66 text-left">
                 <!-- Responsive-tabs-->
@@ -166,20 +166,157 @@
                     <li>Akten</li>
                   </ul>
                   <div class="resp-tabs-container text-left tabs-group-default" data-group="tabs-group-default">
-                    <div>
-                      <p class="big text-bold">Our professional services are the keys to your success</p>
-                      <p>Nowadays, almost everyone has a website. Basically, this is a business card that you present every visitor or partner with. So, the better it is designed the more likely you can expect your further cooperation. The content on your website is important as well.</p>
-                      <p>The information should be not only well-organized and easy to read, but it should be also presented in a visually pleasing manner, thus making the process of reading an enjoyable journey. Adorn posts with bold imagery, and users will get more interested and involved.</p>
+                    <div id="konto-tabs">
+                      <h3 class="text-center">Need to be redesign</h3>
                     </div>
-                    <div>
-                      <p>The information should be not only well-organized and easy to read, but it should be also presented in a visually pleasing manner, thus making the process of reading an enjoyable journey. Adorn posts with bold imagery, and users will get more interested and involved.</p>
+                    <div id="berechtigung-tabs">
+                      <h3 class="text-center">Need to be redesign</h3>
                     </div>
-                    <div>
-                      <p>Nowadays, almost everyone has a website. Basically, this is a business card that you present every visitor or partner with. So, the better it is designed the more likely you can expect your further cooperation. The content on your website is important as well.</p>
+                    <div id="personalisieren-tabs">
+                      <h3 class="text-center">Need to be redesign</h3>
                     </div>
-                    <div>
-                      <p>Nowadays, almost everyone has a website. Basically, this is a business card that you present every visitor or partner with. So, the better it is designed the more likely you can expect your further cooperation. The content on your website is important as well.</p>
-                      <p></p>The information should be not only well-organized and easy to read, but it should be also presented in a visually pleasing manner, thus making the process of reading an enjoyable journey. Adorn posts with bold imagery, and users will get more interested and involved.
+                    <div id="akten-tabs">
+                      <h3 class="text-center">
+                        Meine Akten
+                      </h3>
+                      <div class="add-able" id="akten_1">
+                          <div class="card section-34 inset-left-30 inset-right-30">
+                          <div class="">
+                              <div style="float: right;">
+                              
+                            </div>
+                            <h5>
+                              <span id="label-kategorie">1</span>. Kategorie
+                            </h5>
+  
+                            <label class="form-label form-label-outside" for="box-description">Beschreibung:</label>
+                            <textarea class="form-control" id="box-description"></textarea>
+                            <br/>
+                            <input id="color" type="color" value="#000000">
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="range section-bottom-85">
+                        <div class="cell-lg-12 text-center">
+                            <input type="checkbox" name="seeable" value="seeable"> Kategorien sichtbar für Mandanten/Gäste? <br/><br/>
+                            <button id="add" class="btn btn-ellipse btn-deluge">Kategorie hinzufügen</button>
+                            <button class="btn btn-ellipse btn-deluge">Speichern</button>
+                        </div>
+                      </div>
+                      <button class="accordion">
+                          Service Akte
+                      </button>
+      <div class="panel">
+          <div class="card section-34 inset-left-30 inset-right-30">
+            <small class="">
+                Serviceakten bieten Ihnen die Möglichkeit, bestimmten Kontakten unabhängig von der täglichen Fallbearbeitung anzusprechen. So können Sie beispielsweise Informationen zu einem bestimmten Thema oder Ihren Newsletter in eine Serviceakte einstellen. Eine Serviceakte zeichnet sich dadurch aus, dass die zugriffsberechtigten Personen nur Leserechte erhalten und somit keine eigenen Mitteilungen oder Antworten hinzufügen können.
+            </small>
+            <div class="range">
+              <div class="cell-lg-6">
+                  <input type="checkbox" name="allocated" value="allocated"> <span class="inset-left-10">Funktion Service Akten bereitstellen</span>  <br> <br> 
+                  
+              </div>
+            </div>
+          </div>
+          <div class="range">
+            <div class="cell-lg-12 text-center">
+                <button class="btn btn-ellipse btn-deluge">Speichern</button>
+            </div>
+          </div>
+      </div>
+      
+      <button class="accordion">Darstellung Akte</button>
+      <div class="panel">
+        
+           <div class="range">
+            <div class="cell-lg-4 cell-xs-12">
+              <div class="card section-34 inset-left-20 inset-right-20 stabilHeightOnThree">
+                  <strong>
+                      Anzahl Dateianhänge
+                  </strong> <br> <br>
+                  <small>
+                      Anzahl der Dateianhänge, die direkt in der Nachrichtenliste angezeigt werden:
+                  </small> <br>
+                  <select class="form-control select-filter" data-placeholder="Bitte auswählen" data-minimum-results-for-search="Infinity">
+                              <option>keine Anhänge anzeigen</option>
+                              <option>nur Link anzeigen</option>
+                              <option>immer alle anzegen</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                          </select>
+              </div>
+             
+              
+            </div>
+            <div class="cell-lg-4 cell-xs-12">
+              <div class="card section-34 inset-left-20 inset-right-20 stabilHeightOnThree">
+                  <strong>
+                      Vorschau Nachrichtentext
+                  </strong> <br> <br>
+                  <small>
+                      Anzahl der Textzeichen, die als Vorschau des Nachrichtentexts in der Nachrichtenliste angezeigt werden:
+                  </small> <br>
+                  <input class="form-control form-control-impressed" type="number" data-zeros="true" value="100" min="1" max="9999">
+              </div>
+            </div>
+            <div class="cell-lg-4 cell-xs-12">
+              <div class="card section-34 inset-left-20 inset-right-20 stabilHeightOnThree">
+                  <strong>
+                      Kanzlei-Software
+                  </strong> <br> <br>
+                  <small>
+                      Soll in der Listenansicht angezeigt werden, ob ein Element bereits von der Kanzlei-Software heruntergeladen wurde?
+                  </small>
+                  <div class="range">
+                    <div class="cell-lg-6 cell-xs-6">
+                        <input type="radio" id="ja" name="kanzlei" value="ja"
+                        checked>
+                 <label for="ja">Ja</label>
+                    </div>
+                    <div class="cell-lg-6 cell-xs-6">
+                        <input type="radio" id="nein" name="kanzlei" value="nein">
+                 <label for="nein">Nein</label>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+           </div>
+            <div class="range">
+              <div class="cell-lg-12">
+                <label for="">
+                  <b>
+                    <mark>
+                        Nicht sichtbare Akten
+                      </mark>
+                  </b>
+                </label> <br>
+                  <input type="checkbox" name="allocated" value="allocated"> <span class="inset-left-10">In der Aktenliste können einzelne Akten als nicht sichtbar markiert werden.</span> <br>
+                  
+              </div>
+            </div>
+            <div class="range">
+              <div class="cell-lg-12">
+                <label for="">
+                  <b>
+                    <mark>
+                        Sichtbare Berechtigungen für die Benutzerrolle Mandant/Gast 
+                      </mark>
+                  </b>
+                </label> <br>
+                  <input type="checkbox" name="allocated" value="allocated"> <span class="inset-left-10">Mandanten können sehen, wer außer ihnen noch an geteilten Inhalten berechtigt ist. 
+                   <br>   <b>ACHTUNG! Bei Deaktivierung besteht potentiell ein Risiko, da die am Inhalt berechtigten Teilnehmer nicht mehr einsehbar sind.</b> </span>
+                  
+              </div>
+            </div>
+          
+          <div class="range">
+            <div class="cell-lg-12 text-center">
+                <button class="btn btn-ellipse btn-deluge">Speichern</button>
+            </div>
+      </div>
                     </div>
                   </div>
                 </div>
@@ -192,7 +329,7 @@
           </div>
         </section>
       </main>
-      <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-white">
+      <footer class="section-relative section-top-34 section-bottom-34 page-footer bg-white">
           <div class="shell">
             <div class="range range-sm-center">
               <div class="cell-sm-8 cell-md-12 text-center">
