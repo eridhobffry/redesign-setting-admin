@@ -11544,7 +11544,7 @@ mark, .mark {
 }
 
 .contact-info dl dd a:hover {
-	color: #55bbeb;
+	color: #71aa85;
 }
 
 /** 2.9  Buttons Addons */
@@ -11765,15 +11765,15 @@ fieldset[disabled] .btn-primary {
 
 .btn-deluge {
 	color: #fff;
-	background-color: #8668ad;
-	border-color: #8668ad;
+	background-color: #71aa85;
+	border-color: #71aa85;
 }
 
 .btn-deluge:focus, .btn-deluge.focus, .btn-deluge:hover, .btn-deluge:active, .btn-deluge.active,
 .open > .btn-deluge.dropdown-toggle {
 	color: #fff;
-	background-color: #695999;
-	border-color: #695999;
+	background-color: #629474;
+	border-color: #629474;
 }
 
 .btn-deluge:active, .btn-deluge.active,

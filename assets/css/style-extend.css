@@ -45,10 +45,22 @@
     float: right;
   }
 
-  
+
   .quote-classic-boxed-2 .quote-meta {
     margin-left: 5px;
     position: relative;
     z-index: 3;
     text-align: center;
   }
+  .wrap{
+    min-height: 200px;position:relative;
+}
+  .wrap.sticky #identity-profile{
+    position: fixed;
+width: 18%;
+z-index: 999;
+}
+
+.text-default-company {
+  color: #71aa85;
+}
