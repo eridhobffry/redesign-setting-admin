@@ -13709,12 +13709,9 @@ fieldset[disabled] .swiper-slide-caption
 	z-index: -1;
 }
 
-/** 3 Plugins */
-/** 3.1  RD Navbar */
+
+/** 3.1  Navbar */
 /*
-* @subsection   RD Navbar Mixins
-*
-* @description  Describes style declarations for RD Navbar Mixins
 */
 .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-default.rd-navbar-fixed .rd-navbar-cart-dropdown, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-cart-dropdown, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-cart-dropdown, .rd-navbar-sidebar-fixed .rd-navbar-toggle, .rd-navbar-sidebar-fixed .rd-navbar-nav-wrap, .rd-navbar-sidebar-fixed .rd-navbar-nav li, .rd-navbar-default, .rd-navbar-floated.rd-navbar-static, .rd-navbar-top-panel.rd-navbar-static, .rd-navbar-logo-center.rd-navbar-static {
 	transition: 0.3s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
